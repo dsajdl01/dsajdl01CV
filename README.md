@@ -1,6 +1,6 @@
-# Jose B. Gomes CV
+# David Sajdl CV
 
-This is the CV builder for Jose B. Gomes, a compiled version can be downloaded from:
+This is the CV builder for David Sajdl, a compiled version can be downloaded from:
 
 	https://github.com/jbonigomes/JoseBGomesCV/blob/master/JoseBGomes.pdf?raw=true
 	
@@ -10,19 +10,19 @@ To download the grayscale version:
 
 ## To compile html to pdf
 
-	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 JoseBGomes.xhtml JoseBGomes.pdf
+	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 index.xhtml JoseBGomes.pdf
 
 ## To compile grayscale
 
-	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -g JoseBGomes.xhtml JoseBGomes.pdf
+	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -g index.xhtml JoseBGomes.pdf
 
 ## To compile in low res
 
-	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -l JoseBGomes.xhtml JoseBGomes.pdf
+	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -l index.xhtml JoseBGomes.pdf
 
 ## To compile grayscaled low res
 
-	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -l -g JoseBGomes.xhtml JoseBGomes.pdf
+	wkhtmltopdf -L 0 -T 0 -B 0 -R 0 -l -g index.xhtml JoseBGomes.pdf
 	
 ## Notes
 
