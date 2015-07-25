@@ -7,16 +7,18 @@ h1                                 { color: #000; font-weight: bold;font-family:
 h2                                 { color: #777; font-weight: normal;font-size: 28px; font-family: "Times New Roman", Times, serif; line-height: 30px; font-style: italic; text-align: center; }
 h3                                 { color: #000; font-weight: bold; font-size: 30px; font-family: "Times New Roman", Times, serif; line-height: 30px; margin-bottom: 10px; }
 h3 span                            { color: #000; font-weight: bold; font-size: 30px; padding-right: 3px; }
-h4                                 { color: #e72; font-weight: bold;  font-size: 16px; margin: 10px 0 0 10px; }
+h4                                 { color: #777; font-weight: bold; font-style: italic; font-size: 16px; margin: 10px 0 0 10px; }
 a                                  { color: #fff; text-decoration: none; }
 li                                 { list-style-type: none; }
 
+.itemWrapper ul li 				   {padding-right: 5px}
 .itemWrapper ul li:nth-child(1)    { font-weight: bold; font-style: italic;}
-.itemWrapper ul li:nth-child(2)    { color: #000; }
+.itemWrapper ul li:nth-child(2)    { font-weight: bold; color: #000; }
 
 .contentWrapper                    { margin-bottom: 35px; }
 .itemWrapper                       { margin-bottom: 30px; overflow: hidden; padding: 2px 0; position: relative; }
 .grade                             { position: absolute; top: 25px; left: -21px; font-style: italic; font-size: 12px; -webkit-transform:rotate(-90deg); }
+.itemWrapper p  				   { padding-left: 5px}
 
 #grade3                            { top: 36px; left: -34px; }
 
