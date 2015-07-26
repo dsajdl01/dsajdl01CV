@@ -18,7 +18,7 @@ li                                 { list-style-type: none; }
 .contentWrapper                    { margin-bottom: 35px; }
 .itemWrapper                       { margin-bottom: 30px; overflow: hidden; padding: 2px 0; position: relative; }
 .grade                             { position: absolute; top: 25px; left: -21px; font-style: italic; font-size: 12px; -webkit-transform:rotate(-90deg); }
-.itemWrapper p  				   { padding-left: 5px}
+.itemWrapper p  				   { padding-left: 2px; text-align: justify; text-justify: inter-word;}
 
 #grade3                            { top: 36px; left: -34px; }
 
@@ -40,8 +40,8 @@ li                                 { list-style-type: none; }
 #center-box ul                     { margin-left: 15px; }
 
 #center-box-left                   { float: left; width: 743px; }
-#center-box-left p                 { float: left; width: 500px; padding-right: 20px; }
-#center-box-left ul                { float: left; width: 200px; }
+#center-box-left p                 { float: left; width: 490px; padding-right: 20px; }
+#center-box-left ul                { float: left; width: 210px; }
 
 #center-box-right                  { float: left; width: 250px; }
 #center-box-right ul li            { overflow: hidden; padding: 3px 0; }
