@@ -3,10 +3,10 @@
 #wrapper                           { width: 1033px; line-height: 22px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000; }
 body							   { background-color: #ffffff;}
 
-h1                                 { color: #000; font-weight: bold;font-family: "Times New Roman", Times, serif;font-size: 65px;line-height: 40px; margin-top: 20px; margin-bottom: 10px; text-align: center; }
+h1                                 { color: #2e74b5; font-weight: bold;font-family: "Times New Roman", Times, serif;font-size: 65px;line-height: 40px; margin-top: 20px; margin-bottom: 10px; text-align: center; }
 h2                                 { color: #777; font-weight: normal;font-size: 28px; font-family: "Times New Roman", Times, serif; line-height: 30px; font-style: italic; text-align: center; }
-h3                                 { color: #000; font-weight: bold; font-size: 30px; font-family: "Times New Roman", Times, serif; line-height: 30px; margin-bottom: 10px; }
-h3 span                            { color: #000; font-weight: bold; font-size: 30px; padding-right: 3px; }
+h3                                 { color: #2e74b5; font-weight: bold; font-size: 30px; font-family: "Times New Roman", Times, serif; line-height: 30px; margin-bottom: 10px; }
+h3 span                            { color: #000; font-weight: bold; font-size: 30px; padding-right: 2px; margin-top: 0px}
 h4                                 { color: #777; font-weight: bold; font-style: italic; font-size: 16px; margin: 10px 0 0 10px; }
 a                                  { color: #fff; text-decoration: none; }
 li                                 { list-style-type: none; }
@@ -45,14 +45,14 @@ li                                 { list-style-type: none; }
 
 #center-box-right                  { float: left; width: 250px; }
 #center-box-right ul li            { overflow: hidden; padding: 3px 0; }
-#center-box-right h3               { margin-top: 15px; padding-top: 24px; }
+#center-box-right h3               { margin-top: 5px; padding-top: 4px; margin-bottom: 0}
 #center-box-right h3:first-child   { padding-top: 0; }
 #center-box-right h3:first-child   { margin-top: 0; }
 #center-box-right h4:first-child   { margin-top: 0; }
 #center-box-right ul li span       { width: 17px; height: 17px; display: block; float: left; margin-right: 5px; }
 #center-box-right ul li span.skill { width: 120px; display: block; float: left; }
 
-#bottom-box                        { overflow: hidden; }
+#bottom-box                        { overflow: hidden; margin-top: -25px; }
 
 #bottom-box-left                   { float: left; width: 750px; }
 #bottom-box-left ul                { overflow: hidden; padding-left: 20px; padding-top: 5px; }
